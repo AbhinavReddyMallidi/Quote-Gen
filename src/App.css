@@ -1,0 +1,71 @@
+*{
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  color: hsl(0, 0%, 4%);
+  text-align: left;
+  
+}
+
+#main{
+  color: #b5aeae;
+}
+#copyrights p{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: #b5aeae;
+}
+
+body{
+  font-family: cursive;
+  background-color: rgb(62, 75, 75);
+  object-fit: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+#quote-box{
+  background: #ffffff;
+  width: 40rem;
+  margin: 70px 350px ;
+  padding: 3rem;
+  border-radius: 30px;  
+}
+#text{
+  font-size: 2rem;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+#author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+
+}
+
+#buttons{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+}
+
+#generate{
+  background-color: black;
+  border: none;
+  color: #ffffff;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+#generate:hover{
+opacity: 0.9;
+color: rgb(189, 182, 182);
+}
